@@ -1,0 +1,245 @@
+{
+  "base_url": "https://www.cs.unm.edu/~angel/ONLINE_GRAPHICS/MPEGS/",
+  "videos": [
+    {
+      "title": "Course Overview",
+      "filename": "Angel_14_1_1.mp4"
+    },
+    {
+      "title": "Course Outline",
+      "filename": "Angel_14_1_2.mp4"
+    },
+    {
+      "title": "Sample WebGL Program",
+      "filename": "Angel_14_1_3.mp4"
+    },
+    {
+      "title": "History of Computer Graphics",
+      "filename": "Angel_14_1_4.mp4"
+    },
+    {
+      "title": "Image Formation",
+      "filename": "Angel_14_1_5.mp4"
+    },
+    {
+      "title": "Models and Architecture",
+      "filename": "Angel_14_2_1.mp4"
+    },
+    {
+      "title": "WebGL Background",
+      "filename": "Angel_14_2_2.mp4"
+    },
+    {
+      "title": "WebGL Basics",
+      "filename": "Angel_14_2_3.mp4"
+    },
+    {
+      "title": "A Complete Program",
+      "filename": "Angel_14_2_4.mp4"
+    },
+    {
+      "title": "Discussion and First Assignment",
+      "filename": "Angel_14_2_5.mp4"
+    },
+    {
+      "title": "Shaders 1",
+      "filename": "Angel_14_3_1.mp4"
+    },
+    {
+      "title": "Shaders 2",
+      "filename": "Angel 14_3_2.mp4"
+    },
+    {
+      "title": "Colors and Attributes",
+      "filename": "Angel_14_3_3.mp4"
+    },
+    {
+      "title": "Reading and Initializing Shaders",
+      "filename": "Angel_14_3_4.mp4"
+    },
+    {
+      "title": "Recursive Sierpinski Gasket",
+      "filename": "Angel_14_2_5.mp4"
+    },
+    {
+      "title": "Three Dimensions and Hidden Surface Removal",
+      "filename": "Angel_14_3_6.mp4"
+    },
+    {
+      "title": "Input and Interaction",
+      "filename": "Angel_14_4_1.mp4"
+    },
+    {
+      "title": "Animation",
+      "filename": "Angel_14_4_2.mp4"
+    },
+    {
+      "title": "Callbacks and Event Listeners",
+      "filename": "Angel_14_4_3.mp4"
+    },
+    {
+      "title": "Position Input",
+      "filename": "Angel_14_4_4.mp4"
+    },
+    {
+      "title": "Picking",
+      "filename": "Angel_14_4_5.mp4"
+    },
+    {
+      "title": "Geometry",
+      "filename": "Angel_14_4_6.mp4"
+    },
+    {
+      "title": "Representation",
+      "filename": "Angel_14_5_1.mp4"
+    },
+    {
+      "title": "Homogeneous Coordinates",
+      "filename": "Angel_14_5_2.mp4"
+    },
+    {
+      "title": "Transformations",
+      "filename": "Angel_14_5_3.mp4"
+    },
+    {
+      "title": "Transformations in WebGL",
+      "filename": "Angel_14_5_4.mp4"
+    },
+    {
+      "title": "Applying Transformations",
+      "filename": "Angel_14_5_5.mp4"
+    },
+    {
+      "title": "Quaternions",
+      "filename": "Angel_14_E1.mp4"
+    },
+    {
+      "title": "Modeling",
+      "filename": "Angel_14_6_1.mp4"
+    },
+    {
+      "title": "Rotating Cube",
+      "filename": "Angel_14_6_2.mp4"
+    },
+    {
+      "title": "The Virtual Trackball",
+      "filename": "Angel_14_E2.mp4"
+    },
+    {
+      "title": "Classical Viewing",
+      "filename": "Angel_14_6_3.mp4"
+    },
+    {
+      "title": "Positioning the Camera",
+      "filename": "Angel_14_6_4.mp4"
+    },
+    {
+      "title": "Projection Functions",
+      "filename": "Angel_14_6_5.mp4"
+    },
+    {
+      "title": "Orthogonal Projection Matrices",
+      "filename": "Angel_14_7_1.mp4"
+    },
+    {
+      "title": "Perspective Projection Matrices",
+      "filename": "Angel_14_7_2.mp4"
+    },
+    {
+      "title": "Meshes",
+      "filename": "Angel_14_7_3.mp4"
+    },
+    {
+      "title": "Shadows",
+      "filename": "Angel_14_7_4.mp4"
+    },
+    {
+      "title": "Lighting and Shading 1",
+      "filename": "Angel_14_7_5.mp4"
+    },
+    {
+      "title": "Lighting and Shading 2",
+      "filename": "Angel_14_8_1.mp4"
+    },
+    {
+      "title": "Lighting in WebGL",
+      "filename": "Angel_14_8_2.mp4"
+    },
+    {
+      "title": "Polygonal Shading",
+      "filename": "Angel_14_8_3.mp4"
+    },
+    {
+      "title": "Per Vertex and Per Fragment Shading",
+      "filename": "Angel_14_8_4.mp4"
+    },
+    {
+      "title": "Marching Squares",
+      "filename": "Angel_14_E3.mp4"
+    },
+    {
+      "title": "Buffers",
+      "filename": "Angel_14_9_1.mp4"
+    },
+    {
+      "title": "BitBlt",
+      "filename": "Angel_14_9_2.mp4"
+    },
+    {
+      "title": "Texture Mapping I",
+      "filename": "Angel_14_9_3.mp4"
+    },
+    {
+      "title": "Texture Mapping II",
+      "filename": "Angel_14_9_4.mp4"
+    },
+    {
+      "title": "WebGL Texture Mapping I",
+      "filename": "Angel_14_9_5.mp4"
+    },
+    {
+      "title": "WebGL Texture Mapping II",
+      "filename": "Angel_14_9_6.mp4"
+    },
+    {
+      "title": "Reflection and Environment Maps",
+      "filename": "Angel_14_10_1.mp4"
+    },
+    {
+      "title": "Bump Maps",
+      "filename": "Angel_14_10_2.mp4"
+    },
+    {
+      "title": "Compositing and Blending",
+      "filename": "Angel_14_10_3.mp4"
+    },
+    {
+      "title": "Imaging Applications",
+      "filename": "Angel_14_10_4.mp4"
+    },
+    {
+      "title": "Rendering the Mandelbrot Set",
+      "filename": "Angel_14_10_5.mp4"
+    },
+    {
+      "title": "Framebuffer Objects",
+      "filename": "Angel_14_11_1.mp4"
+    },
+    {
+      "title": "Render to Texture",
+      "filename": "Angel_14_11_2.mp4"
+    },
+    {
+      "title": "Buffer Pingponging",
+      "filename": "Angel_14_11_3.mp4"
+    },
+    {
+      "title": "Picking by Color",
+      "filename": "Angel_14_11_4.mp4"
+    },
+    {
+      "title": "Fractals",
+      "filename": "Angel_14_E4.mp4"
+    }
+  ]
+}
