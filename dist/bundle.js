@@ -52,7 +52,7 @@ var App = exports.App = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'container' },
+        { className: 'container-fluid' },
         _react2.default.createElement(
           'div',
           { className: 'row' },
