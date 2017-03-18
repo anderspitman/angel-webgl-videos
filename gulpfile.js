@@ -10,12 +10,13 @@ var watchify = require('watchify');
 gulp.task("build", function() {
 
   var bundler = browserify({
-    entries: "src/index.js",
+    entries: "src/index.jsx",
     transform: babelify
   });
 
   bundler
     .bundle()
+    .on("error", gutil.log)
     .pipe(source("bundle.js"))
     .pipe(streamify(uglify()))
     .pipe(gulp.dest("dist"));
@@ -25,7 +26,7 @@ gulp.task("build", function() {
 gulp.task("watch", function() {
 
   var watcher  = watchify(browserify({
-    entries: "src/index.js",
+    entries: "src/index.jsx",
     transform: [babelify],
     debug: true,
     cache: {},
@@ -35,12 +36,14 @@ gulp.task("watch", function() {
 
   watcher.on("update", function() {
     watcher.bundle()
+    .on("error", gutil.log)
     .pipe(source("bundle.js"))
     .pipe(gulp.dest("dist"));
     console.log("Updated");
   })
     // TODO: there's got to be a way to get rid of this duplication
     .bundle()
+    .on("error", gutil.log)
     .pipe(source("bundle.js"))
     .pipe(gulp.dest("dist"));
 

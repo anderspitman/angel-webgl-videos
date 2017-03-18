@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components/app';
+import { App } from './components/App.jsx';
 
 const videoUrl = "https://www.cs.unm.edu/~angel/ONLINE_GRAPHICS/MPEGS/";
 

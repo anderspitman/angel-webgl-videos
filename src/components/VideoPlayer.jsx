@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { VideoControl } from './video_control';
+import { VideoControl } from './VideoControl.jsx';
 
 export class VideoPlayer extends React.Component {
   constructor(props) {

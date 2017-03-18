@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { VideoLink } from './video_link';
+import { VideoLink } from './VideoLink.jsx';
 
 export class VideoLinkList extends React.Component {
 

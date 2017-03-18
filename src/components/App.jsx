@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Immutable from 'immutable';
-import { VideoPlayer } from './video_player';
-import { VideoLinkList } from './video_link_list';
+import { VideoPlayer } from './VideoPlayer.jsx';
+import { VideoLinkList } from './VideoLinkList.jsx';
 
 export class App extends React.Component {
   constructor(props) {
