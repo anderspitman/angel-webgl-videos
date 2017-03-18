@@ -4,7 +4,11 @@ import { App } from './components/App.jsx';
 
 const videoUrl = "https://www.cs.unm.edu/~angel/ONLINE_GRAPHICS/MPEGS/";
 
-$.get("video_data.json", gotData);
+fetch("video_data.json", gotData)
+.then(response => response.text())
+.then(text => {
+  gotData(JSON.parse(text));
+});
 
 function gotData(data) {
 
@@ -17,7 +21,7 @@ function gotData(data) {
 
   ReactDOM.render(
     <App links={links} />,
-    document.getElementById('app')
+    document.getElementById('app-root')
   );
 }
 
