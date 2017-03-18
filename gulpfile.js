@@ -6,6 +6,8 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var babelify = require('babelify');
 var watchify = require('watchify');
+var livereactload = require('livereactload');
+var livereload = require('gulp-server-livereload');
 
 gulp.task("build", function() {
 
@@ -25,28 +27,38 @@ gulp.task("build", function() {
 
 gulp.task("watch", function() {
 
-  var watcher  = watchify(browserify({
+  var b = browserify({
     entries: "src/index.jsx",
     transform: [babelify],
+    plugin: [watchify, livereactload],
     debug: true,
     cache: {},
     packageCache: {},
     fullPaths: true
-  }));
+  });
 
-  watcher.on("update", function() {
-    watcher.bundle()
-    .on("error", gutil.log)
-    .pipe(source("bundle.js"))
-    .pipe(gulp.dest("dist"));
-    console.log("Updated");
+  var build = function() {
+    return b.bundle()
+      .on("error", gutil.log)
+      .pipe(source("bundle.js"))
+      .pipe(gulp.dest("dist"));
+  }
+
+  b.on("update", function() {
+    build();
   })
-    // TODO: there's got to be a way to get rid of this duplication
-    .bundle()
-    .on("error", gutil.log)
-    .pipe(source("bundle.js"))
-    .pipe(gulp.dest("dist"));
 
+  // kick off
+  return build();
+
+});
+
+gulp.task("server", ["watch"], function() {
+  return gulp.src("./")
+    .pipe(livereload({
+      host: "0.0.0.0",
+      port: 3000
+    }));
 });
 
 gulp.task("default", ["watch"]);
